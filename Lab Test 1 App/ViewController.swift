@@ -85,6 +85,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let selectedStudent = self.students[selectedIndexPath.row]
             
             saveVC.currentStudent = selectedStudent
+            saveVC.coreDataStack = coreDataStack
+            saveVC.delegate = self
         default:
                 break
             }
