@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB0A969126F403A2006AA838 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0A969026F403A2006AA838 /* StudentTableViewCell.swift */; };
+		EB3CA6A426F3926A00204D80 /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3CA6A326F3926A00204D80 /* SaveViewController.swift */; };
 		EBAA1BA526F122C60030ECE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAA1BA426F122C60030ECE6 /* AppDelegate.swift */; };
 		EBAA1BA726F122C60030ECE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAA1BA626F122C60030ECE6 /* SceneDelegate.swift */; };
 		EBAA1BA926F122C60030ECE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAA1BA826F122C60030ECE6 /* ViewController.swift */; };
 		EBAA1BAC26F122C60030ECE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAA1BAA26F122C60030ECE6 /* Main.storyboard */; };
 		EBAA1BAE26F122C70030ECE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBAA1BAD26F122C70030ECE6 /* Assets.xcassets */; };
 		EBAA1BB126F122C70030ECE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAA1BAF26F122C70030ECE6 /* LaunchScreen.storyboard */; };
+		EBDF3E9226F3ADC0001CFA81 /* Student.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBDF3E9026F3ADC0001CFA81 /* Student.xcdatamodeld */; };
+		EBDF3E9926F3AFD8001CFA81 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDF3E9826F3AFD8001CFA81 /* CoreDataStack.swift */; };
+		EBDFE39326F4EDE200813E49 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFE39126F4EDE200813E49 /* Student+CoreDataClass.swift */; };
+		EBDFE39426F4EDE200813E49 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFE39226F4EDE200813E49 /* Student+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB0A969026F403A2006AA838 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+		EB3CA6A326F3926A00204D80 /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
 		EBAA1BA126F122C60030ECE6 /* Lab Test 1 App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab Test 1 App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBAA1BA426F122C60030ECE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBAA1BA626F122C60030ECE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		EBAA1BAD26F122C70030ECE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBAA1BB026F122C70030ECE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBAA1BB226F122C70030ECE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDF3E9126F3ADC0001CFA81 /* Student.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Student.xcdatamodel; sourceTree = "<group>"; };
+		EBDF3E9826F3AFD8001CFA81 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		EBDFE39126F4EDE200813E49 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Student+CoreDataClass.swift"; path = "../Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EBDFE39226F4EDE200813E49 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +68,19 @@
 		EBAA1BA326F122C60030ECE6 /* Lab Test 1 App */ = {
 			isa = PBXGroup;
 			children = (
+				EBDFE39126F4EDE200813E49 /* Student+CoreDataClass.swift */,
+				EBDFE39226F4EDE200813E49 /* Student+CoreDataProperties.swift */,
 				EBAA1BA426F122C60030ECE6 /* AppDelegate.swift */,
 				EBAA1BA626F122C60030ECE6 /* SceneDelegate.swift */,
 				EBAA1BA826F122C60030ECE6 /* ViewController.swift */,
+				EB3CA6A326F3926A00204D80 /* SaveViewController.swift */,
 				EBAA1BAA26F122C60030ECE6 /* Main.storyboard */,
 				EBAA1BAD26F122C70030ECE6 /* Assets.xcassets */,
 				EBAA1BAF26F122C70030ECE6 /* LaunchScreen.storyboard */,
 				EBAA1BB226F122C70030ECE6 /* Info.plist */,
+				EBDF3E9026F3ADC0001CFA81 /* Student.xcdatamodeld */,
+				EBDF3E9826F3AFD8001CFA81 /* CoreDataStack.swift */,
+				EB0A969026F403A2006AA838 /* StudentTableViewCell.swift */,
 			);
 			path = "Lab Test 1 App";
 			sourceTree = "<group>";
@@ -138,8 +156,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBAA1BA926F122C60030ECE6 /* ViewController.swift in Sources */,
+				EBDFE39326F4EDE200813E49 /* Student+CoreDataClass.swift in Sources */,
+				EB3CA6A426F3926A00204D80 /* SaveViewController.swift in Sources */,
+				EBDF3E9226F3ADC0001CFA81 /* Student.xcdatamodeld in Sources */,
 				EBAA1BA526F122C60030ECE6 /* AppDelegate.swift in Sources */,
 				EBAA1BA726F122C60030ECE6 /* SceneDelegate.swift in Sources */,
+				EBDFE39426F4EDE200813E49 /* Student+CoreDataProperties.swift in Sources */,
+				EBDF3E9926F3AFD8001CFA81 /* CoreDataStack.swift in Sources */,
+				EB0A969126F403A2006AA838 /* StudentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +365,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBDF3E9026F3ADC0001CFA81 /* Student.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBDF3E9126F3ADC0001CFA81 /* Student.xcdatamodel */,
+			);
+			currentVersion = EBDF3E9126F3ADC0001CFA81 /* Student.xcdatamodel */;
+			path = Student.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EBAA1B9926F122C60030ECE6 /* Project object */;
 }

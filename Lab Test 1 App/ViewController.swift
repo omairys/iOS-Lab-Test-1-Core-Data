@@ -59,9 +59,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
           else {
             return
           }
-
             self.students = students
-          self.tableView.reloadData()
+            
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
         })
         
         fetchAndReload()
